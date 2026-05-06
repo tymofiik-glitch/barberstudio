@@ -83,7 +83,7 @@ export function Navbar() {
             </div>
 
             <button
-              onClick={open}
+              onClick={() => open()}
               className="hidden rounded-full border border-gold/50 px-5 py-2 font-body text-sm font-semibold tracking-wide text-gold transition-all duration-300 hover:bg-gold hover:text-dark md:block"
               style={{
                 backdropFilter: 'blur(8px)',

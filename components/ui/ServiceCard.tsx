@@ -54,7 +54,7 @@ export function ServiceCard({ id, name, description, price, duration, icon, inde
           className="w-full rounded-xl py-3 font-body text-xs font-bold uppercase tracking-[0.1em] text-off-white transition-all duration-300 hover:bg-gold hover:text-dark border border-off-white/10 hover:border-gold"
           style={{ background: 'rgba(255,255,255,0.04)' }}
         >
-          {t.modal.cta?.[lang] || 'Book'}
+          {t.sticky.cta[lang]}
         </button>
       </div>
     </motion.div>

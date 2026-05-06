@@ -32,7 +32,7 @@ export function ModalProvider({ children }: { children: ReactNode }) {
   }, [])
 
   return (
-    <ModalContext.Provider value={{ isOpen, open, close }}>
+    <ModalContext.Provider value={{ isOpen, serviceId, open, close }}>
       {children}
     </ModalContext.Provider>
   )

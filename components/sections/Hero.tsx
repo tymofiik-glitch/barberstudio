@@ -61,7 +61,7 @@ export function Hero() {
           </motion.div>
 
           <motion.div variants={item} className="mt-8 flex flex-wrap items-center gap-3 md:mt-10 md:gap-4">
-            <button onClick={open}
+            <button onClick={() => open()}
               className="group relative overflow-hidden rounded-full bg-gold px-6 py-3.5 md:px-8 md:py-4 font-body text-sm font-semibold tracking-wide text-dark transition-all duration-300 hover:shadow-[0_0_30px_rgba(181,113,74,0.35)] active:scale-95"
             >
               <span className="relative z-10">{tx.cta[lang]}</span>
