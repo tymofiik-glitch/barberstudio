@@ -3,7 +3,8 @@
 A premium, modern barbershop website built with Next.js, Tailwind CSS, and Framer Motion.
 
 ## 🚀 Live Demo
-**[View Live Website](https://tymofiik-glitch.github.io/barberstudio/)**
+**[View Live Website on Vercel](https://barberstudio.vercel.app/)**
+*(Note: replace with your actual Vercel URL if different)*
 
 ## ✨ Features
 - **Dynamic Booking System**: Multilingual booking flow with service and barber selection.
